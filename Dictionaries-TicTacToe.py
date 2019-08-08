@@ -1,4 +1,5 @@
 # A Tic-Tac-Toe Board
+# the Grid
 theBoard={'t-l':'t-l','t-m':'t-m','t-r':'t-r',
           'm-l':'m-l','m-m':'m-m','m-r':'m-r',
           'l-l':'l-l','l-m':'l-m','l-r':'l-r'}
@@ -24,7 +25,8 @@ def winner(theBoard):
                       return 1                                           
            if theBoard['t-r']==theBoard['m-m'] and theBoard['m-m']== theBoard['l-l']:
                       print('The winner is '+theBoard['m-m'])
-                      return 1          
+                      return 1   
+***********************************************"""MainCode"""****************************************************
 print("***RULES***\nTo make a move use t,m,l as Top,Mid,Low and l,m,r as Left,Mid,Right in this format" + " 'm-m' for Mid-Mid or 't-l' for Top-Left.")
 turn=input('\nWho wants to play first? X or O? : ')
 turn=" "+turn+" "
